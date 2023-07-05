@@ -2307,7 +2307,13 @@ html {
 
 .pricing-img {
   margin-bottom: 25px;
-  max-width: 100%;
+  max-width: 60%;
+}
+
+@media (max-width: 900px) {
+  .pricing-img {
+    max-width: 30% !important;
+  }
 }
 
 .pricing-header {
@@ -2365,4 +2371,14 @@ html {
 .pricing-button.is-featured:hover,
 .pricing-button.is-featured:active {
   background-color: #5864ff;
+}
+
+/*  */
+.save-money {
+  width: 60%;
+  height: auto;
+}
+
+.phone-icon {
+  float: left;
 }
