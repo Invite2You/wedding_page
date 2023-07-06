@@ -95,3 +95,20 @@
   // WOW active
   new WOW().init();
 })();
+
+// Number pop up for call and whatsapp
+function showModal(modalId) {
+  var modal = document.getElementById(modalId);
+  modal.style.display = "block";
+}
+
+window.onclick = function (event) {
+  var modal = document.getElementById("modal1");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+  modal = document.getElementById("modal2");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
