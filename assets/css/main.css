@@ -2436,34 +2436,10 @@ html {
 
 
 /* Image animation */
-/* .image-first-container {
-  width: 100%;
-  min-height: 100vh;
-  background: #333;
-}
-.first-image {
-  perspective: 3000px;
-  width: 50%;
-  position: absolute;
-  display: inline-block;
-  left: 50%;
-  top:50%;
-  transform: translate(-50%, -50%);
-  transform-style: preserve-3d;
-}
-.first-image #front-image {
-  transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
-  box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
-  transition: all .4s;
-  transform-style: preserve-3d;
-}
-.first-image:hover #front-image {
-  transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
-  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
-} */
+
 
 #first-img {
   transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
-  box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
+  box-shadow: 80px 60px 15px 5px rgba(0,0,0,0.4);
   transform-style: preserve-3d;
 } 
